@@ -1,0 +1,5 @@
+next iteration needs to utilize bracket orders, and take a ticker off the watchlist
+while an order is being held, and then add it back once it has been taken off of the portfolio
+which thus must be checked at the top of each minute-by-minute iteration.
+i also need to develop an inner-algo algorithm to find a SL and TP when a buy decision is made
+also look into their order update websocket stuff because that will significantly make this project much easier
